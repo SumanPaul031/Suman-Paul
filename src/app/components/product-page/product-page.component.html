@@ -1,0 +1,28 @@
+<article class="project-page" ng-controller="ProjectCtrl">
+
+    <div class="project-description">
+      <p><strong>{{title}}</strong></p>
+  
+      <div class="project-images">
+        <img alt="{{title}}" [src]="image">
+      </div>
+  
+      <p>{{description}}</p>
+  
+      <blockquote>
+        <p>
+          <span [hidden]="!type">{{type}}</span><br>
+          <span [hidden]="!role">{{role}}</span><br>
+          <span [hidden]="!date">{{date | date: 'fullDate'}}</span>
+  
+        </p>
+      </blockquote>
+  
+      <p [hidden]="!links"><a href="{{url}}" target="_blank" rel="noopener">{{name}}<br></a></p>
+    </div>
+  
+    <div>
+      <a routerLink="/" class="back">< Back</a>
+    </div>
+  
+</article>

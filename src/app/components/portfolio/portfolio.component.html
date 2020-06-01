@@ -1,0 +1,80 @@
+<article>
+
+    <p class="description">
+      Welcome. My focus is the conception and implementation of data, visualizations and web applications using Angular as my main javascript framework in the area of ​​front-end and full-stack web development. I am a Computer Science student and look forward to your <a routerLink="/contact">inquiry</a>. Here is an overview of some of my projects in recent years:
+    </p>
+  
+    <section class="project-wrapper">
+  
+      <!-- <div ng-repeat="project in projects" class="project">
+  
+        <a href="#!/project/{{project.title | dashcase}}">
+          <div class="thumb">
+              <img alt="{{project.title}}" ng-src="{{'img/project/' + project.images[0]}}">
+              <div class="overlay">
+              </div>
+          </div>
+  
+          <p><strong>{{project.title}}</strong> – {{project.role}}</p>
+        </a>
+  
+      </div> -->
+
+      <div class="project">  
+        <a #meanblog routerLink="/" (click)="ProjectClick(meanblog)">
+          <div class="thumb">
+              <img alt="MEAN-Blog" src="../../../assets/img/mean-blog.PNG">
+              <div class="overlay">
+              </div>
+          </div>  
+          <p><strong>MEAN-Blog</strong> – Blog website with user management and authentication</p>
+        </a>  
+      </div>
+
+      <div class="project">  
+        <a #covid routerLink="/" (click)="ProjectClick(covid)">
+          <div class="thumb">
+              <img alt="Covid-19 Statistics" src="../../../assets/img/covid19-tracker.PNG">
+              <div class="overlay">
+              </div>
+          </div>  
+          <p><strong>Covid-19 Statistics</strong> – A coronavirus statistics Website</p>
+        </a>  
+      </div>
+
+      <div class="project">  
+        <a #coronavirus routerLink="/" (click)="ProjectClick(coronavirus)">
+          <div class="thumb">
+              <img alt="Coronavirus Stats" src="../../../assets/img/covid19-tracker-ii.PNG">
+              <div class="overlay">
+              </div>
+          </div>  
+          <p><strong>Coronavirus Stats</strong> – A coronavirus statistics Website</p>
+        </a>  
+      </div>
+      
+      <div class="project">  
+        <a #mybrary routerLink="/" (click)="ProjectClick(mybrary)">
+          <div class="thumb">
+              <img alt="Mybrary" src="../../../assets/img/mybrary.PNG">
+              <div class="overlay">
+              </div>
+          </div>  
+          <p><strong>Mybrary</strong> – An online book store</p>
+        </a>  
+      </div>
+
+      <div class="project">  
+        <a #budget routerLink="/" (click)="ProjectClick(budget)">
+          <div class="thumb">
+              <img alt="Budget Calculator" src="../../../assets/img/budget-calculator.PNG">
+              <div class="overlay">
+              </div>
+          </div>  
+          <p><strong>Budget Calculator</strong> – An online budget calculator to manage expenses</p>
+        </a>  
+      </div>
+  
+    </section>
+  
+</article>

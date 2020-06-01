@@ -1,0 +1,114 @@
+.contact .address {
+    display: inline-block;
+    width: 35%;
+    margin-right: 5%;
+}
+
+.contact .map {
+    margin-top: 1em;
+    width: 55%;
+    height: 250px;
+    float: right;
+}
+
+/* .social .timeline{
+    width: 20%;
+    margin-right: 6%;
+}
+
+.social .timeline:last-child{
+    margin-right: 0;
+}
+
+.social .timeline .bubble {
+    background-size: 383px;
+} */
+
+.skype {
+    background-image: url("../../../assets/img/socialicons.png");
+    /* background-position: -133px -54px; */
+}
+
+.social .twitter {
+    background-image: url("../../../assets/img/socialicons.png");
+    background-position: -51px -54px;
+}
+
+.social .linkedin {
+    background-image: url("../../../assets/img/socialicons.png");
+    background-position: -175px -54px;
+}
+
+.social .github {
+    background-image: url("../../../assets/img/socialicons.png");
+    background-position: -259px -54px;
+}
+
+.mapboxgl-marker {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border:1px solid gray;
+    background-color:lightblue;
+}
+
+@media (max-width: 880px) {
+
+    .contact .map {
+        margin-top: 0;
+        width: 100%;
+    }
+  
+    .contact .address {
+        width: 100%;
+    }
+  
+    /* .timeline {
+      width: 100%;
+    } */
+  
+    .skills {
+      float: none;
+      width: 100%;
+      display: block;
+    }
+  
+    /* .social .timeline {
+        width: 40%;
+    } */
+  
+    header nav {
+      line-height: 1.6em;
+      float: none;
+      display: block;
+      margin: 1.5em 0 2em 0;
+    }
+}
+  
+@media (max-width: 540px) {
+  
+    body {
+      padding: 2em;
+      font-size: 1em;
+    }
+  
+    /* .project-wrapper {
+      margin-top: 2em;
+    }
+  
+    .project {
+      width: 95%;
+      margin-bottom: 1.4em;
+    } */
+  
+    .contact .map {
+        display: none;
+    }
+}
+  
+@media (max-width: 400px) {
+  
+    .social .timeline {
+        width: 100%;
+    }
+}

@@ -1,0 +1,17 @@
+footer {
+    margin-top: 4em;
+}
+footer p {
+    font-weight: 300;
+    color: darkgray;
+    text-align: center;
+}
+footer p a {
+    transition: 0.25s;
+    text-decoration: none;
+    color: darkgray;
+}
+
+footer p a:hover{
+    color: #007FFF;
+}
