@@ -71,6 +71,15 @@ export class ProductPageComponent implements OnInit {
       this.type = "Front-End Project";
       this.role = "Design";
       this.description = "An Online Budget Calculaator where a simple method is used where for expenses you have to provide '-' befor the amount and nothing before the gain with the name of the gain or loss to get the result."
+    } else if(this.title == "Firestore"){
+      this.name = "Cloud Cafe";
+      this.title = "Firestore Demo";
+      this.url = "https://firestore-begin.web.app";
+      this.image = "../../../assets/img/Firestore.PNG";
+      this.date = new Date("2020-06-19");
+      this.type = "Firebase Project";
+      this.role = "Implementation";
+      this.description = "An Simple Cloud Cafe which works using Firebase and uses the database provided by Firebase, i.e. FireStore to store data"
     }
   }
 
