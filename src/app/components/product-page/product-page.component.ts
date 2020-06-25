@@ -80,6 +80,15 @@ export class ProductPageComponent implements OnInit {
       this.type = "Firebase Project";
       this.role = "Implementation";
       this.description = "An Simple Cloud Cafe which works using Firebase and uses the database provided by Firebase, i.e. FireStore to store data"
+    } else if(this.title == "Firebase"){
+      this.name = "Firebase Cloud Functions Demo";
+      this.title = "Most Loved Languages";
+      this.url = "https://functions-begin.web.app/";
+      this.image = "../../../assets/img/Firebase Cloud Functions.PNG";
+      this.date = new Date("2020-06-25");
+      this.type = "Firebase Project";
+      this.role = "Implementation";
+      this.description = "An Simple Voting System which works using Firebase Cloud Functions and uses the database provided by Firebase, i.e. FireStore to store data"
     }
   }
 
